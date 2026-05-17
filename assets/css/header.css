@@ -1,0 +1,92 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #fcfcfc;
+
+    height: 4rem;
+
+    font-size: 1.5rem;
+
+
+}
+
+.logo-container {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+.first-list {
+    width: 50vw;
+    display: flex;
+
+}
+
+.first-list a {
+    text-decoration: none;
+    color: var(--text);
+    margin-right: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
+
+}
+
+.first-list a:hover {
+    color: var(--text-muted);
+    background-color: var(--surface-2);
+}
+
+.second-list {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.second-list a {
+    text-decoration: none;
+    margin: 0 15;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.second-list-item {
+    color: var(--text);
+}
+
+.second-list-item:hover {
+    color: var(--text-muted);
+    background-color: var(--surface-2);
+}
+
+.signUp-btn {
+    background-color: var(--primary);
+    color: var(--surface);
+}
+
+.signUp-btn:hover {
+    background-color: var(--primary-hover);
+    color: var(--text-muted);
+}
+
+.signOut-btn {
+    background-color: var(--primary);
+    color: var(--surface);
+}
+
+.signOut-btn:hover {
+    background-color: var(--primary-hover);
+    color: var(--text-muted);
+}

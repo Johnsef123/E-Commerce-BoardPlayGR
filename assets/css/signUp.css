@@ -1,0 +1,84 @@
+.sign-up-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: var(--white);
+    width: 60%;
+    height: fit-content;
+}
+
+.sign-up-form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+}
+
+.sign-up-form-container label{
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    color: var(--black);
+}
+
+.sign-up-form-container form input{
+    width: 50%;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.sign-up-form-container p input {
+    height: 20px;
+    width: 40;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.sign-up-form-container .password-change {
+    color: var(--black);
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.sign-up-form-container form button {
+    margin: 30px auto;
+    padding: 10 0px;
+    width: 40%;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1.3rem;
+    border: 3px solid var(--black);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.sign-up-form-container form button:hover {
+    background-color: var(--black);
+    border: 3px solid var(--black);
+    color: var(--white);
+    transition: 0.5s;
+}
+
+
+.sign-up-error-message {
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+    font-size: 1.5rem;
+    
+}

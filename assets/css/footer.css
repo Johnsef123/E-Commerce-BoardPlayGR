@@ -1,0 +1,19 @@
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.list-1, .list-2, .list-3{
+    width: 25%;
+    min-width: 200px;
+}
+.list-1 h4, .list-2 h4, .list-3 h4{
+    text-align: center;
+    font-size: larger;
+}
+
+.footer-copy{
+    text-align: center;
+    font-size: 1.5rem;
+}

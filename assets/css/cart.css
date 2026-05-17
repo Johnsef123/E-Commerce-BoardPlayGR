@@ -1,0 +1,134 @@
+.cart-title {
+    text-align: center;
+    margin: 30px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 15%;
+    padding: 20px;
+    border: 1px solid var(--black);
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    border-bottom: 2px solid var(--black);
+    justify-content: center;
+
+}
+
+.cart-item img {
+    width: 100px;
+    height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.cart-info {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    padding: 30px;
+}
+
+.cart-item-title {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.minus-btn, .plus-btn {
+    display: inline-flex;
+    padding: 0;
+    background: none;
+    border: none;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.quantity-input-field {
+    
+    text-align: center;
+    width: 30px;
+    height: 25px;
+    border: 1px solid var(--black);
+    border-radius: 3px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.cart-total{
+   margin-left: auto;
+}
+
+.cart-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.return-to-products{
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.return-to-products:hover{
+    background-color: var(--black);
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.order-placement-btn{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 10px 15px;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.order-placement-btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+    transition: 0.5s;
+}
+
+
+.empty-cart-message{
+     margin: auto 50px;
+}
+.empty-cart-btn{
+    text-decoration: none;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10 20px;
+    width: 40%;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 1.3rem;
+    border: 3px solid var(--black);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.empty-cart-btn:hover{
+    background-color: var(--black);
+    border: 3px solid var(--black);
+    color: var(--white);
+    transition: 0.5s;
+}

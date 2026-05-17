@@ -1,0 +1,28 @@
+.products-hero-section{
+    background-image: url(../pictures/hero-backgound.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+.products-hero-section h1{
+    color: var(--white);
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+/*products are being styled from the index.css*/
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 5%;
+    justify-content: center;
+}
+
+
+
